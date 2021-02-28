@@ -238,7 +238,7 @@ export default class SwitchSelector extends Component {
                             outputRange: [
                               hasPadding ? valuePadding : 0,
                               sliderWidth
-                                - (hasPadding ? valuePadding : 0),
+                              - (hasPadding ? valuePadding : 0),
                             ],
                           }),
                         },
@@ -247,6 +247,7 @@ export default class SwitchSelector extends Component {
                       margin: buttonMargin,
                     },
                     styles.animated,
+                    this.props.selectedViewStyle
                   ]}
                 />
               )}
