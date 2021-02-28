@@ -41,6 +41,7 @@ declare module "react-native-switch-selector" {
     imageStyle?: ImageStyle | RegisteredStyle<ImageStyle>;
     style?: ViewStyle | RegisteredStyle<ViewStyle>;
     selectedViewStyle?: ViewStyle | RegisteredStyle<ViewStyle>;
+    containerStyle?: ViewStyle | RegisteredStyle<ViewStyle>;
     returnObject?: boolean;
     disabled?: boolean;
     disableValueChangeOnPress?: boolean;

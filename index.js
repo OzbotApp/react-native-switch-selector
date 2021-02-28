@@ -211,14 +211,14 @@ export default class SwitchSelector extends Component {
             }}
           >
             <View
-              style={{
+              style={[{
                 flex: 1,
                 flexDirection: 'row',
                 borderColor,
                 borderRadius,
                 borderWidth: hasPadding ? borderWidth : 0,
                 alignItems: 'center',
-              }}
+              }, this.props.containerStyle]}
             >
               {!!sliderWidth && (
                 <Animated.View
